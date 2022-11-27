@@ -1,0 +1,47 @@
+header{
+    width: 100%;
+    background-color: var(--header-color);
+    box-shadow: var(--shadow);
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+header .wrapper{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.header__logo{
+    background-image: url(../resources/icon/HappyChild_small.svg);    
+    background-repeat: no-repeat;
+    width: 136px;
+    height: 31px;
+}
+
+.header__logo:hover{
+    transform: scale(1.5);
+    transition-duration: 0.5s;
+}
+
+.header__navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation__link{
+    padding-right: 25px;
+}
+
+.header__phone{
+    background-image: url(../resources/icon/phone.svg);
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+}
+
+.header__phone:hover{
+    transform: scale(1.5);
+    transition-duration: 0.5s;
+}

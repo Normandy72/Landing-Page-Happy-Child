@@ -1,0 +1,9 @@
+.section__services{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.section__services h2{
+    display: block;
+    align-items: center;
+}

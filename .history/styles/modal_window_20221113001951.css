@@ -1,0 +1,9 @@
+.modal__window{
+    width: 60%;
+    margin: auto;
+    padding: 50px;
+}
+
+.hide{
+    display: none;
+}

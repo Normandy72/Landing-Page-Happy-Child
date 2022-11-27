@@ -1,0 +1,35 @@
+.section__services .layout-3-columns{
+    justify-content: space-evenly;
+}
+
+.section__services h2{
+    display: block;
+    margin: -60px 0 40px 40%;
+}
+
+.services__cards{
+    background-image: url(../resources/img/line.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 68px;
+}
+
+.services__card{
+    background-color: var(--cards-color);
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+    margin-top: -10px;
+}
+
+.services__card img{
+    border-radius: 20px 20px 0 0;
+}
+
+.services__card h4{
+    padding: 15px 23px;
+}
+
+.services__card:hover{
+    transform: scale(1.5);
+    transition-duration: 0.5s;
+}

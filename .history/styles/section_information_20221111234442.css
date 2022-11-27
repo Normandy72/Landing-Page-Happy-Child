@@ -1,0 +1,16 @@
+.section__information{
+    margin-top: -10px;
+    display: flex;
+}
+
+.information__block{
+    background-color: var(--added-blocks-color);
+}
+
+.block__icon{
+    
+}
+
+.block__phone .block__icon{
+
+}

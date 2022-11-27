@@ -1,0 +1,8 @@
+.section__addition{
+    color: var(--text-ligth-color);
+    background-color: var(--added-blocks-color);
+}
+
+.addition__info{
+    padding: 36px 0;
+}

@@ -1,0 +1,15 @@
+.section__services{
+    background-image: url(../resources/img/line.png);
+    background-repeat: repeat(4);
+}
+
+.section__services .wrapper{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.section__services h2{
+    display: block;
+    margin: auto;
+    margin-top: -60px;
+}

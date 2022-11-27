@@ -1,0 +1,10 @@
+footer{
+    width: 100%;
+    background-color: var(--footer-color);
+}
+
+footer h6{
+    display: inline;
+    color: var(--text-ligth-color);
+    padding-right: 30px;
+}

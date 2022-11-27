@@ -1,0 +1,8 @@
+footer{
+    width: 100%;
+    background-color: var(--footer-color);
+}
+
+footer h6{
+    display: inline;
+}

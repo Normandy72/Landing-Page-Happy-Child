@@ -1,0 +1,49 @@
+.section__chief{
+    padding-top: 138px;
+    padding-bottom: 88px;
+    padding-right: 10%;
+}
+
+.chief__foto{
+    background-image: url(../resources/img/doctors/chief1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 426px;
+    height: 386px;
+}
+
+.chief__text{
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.chief__text h5{
+    text-align: center;
+    line-height: 155.88%;
+    padding-bottom: 10px;
+}
+
+.text__lines{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text__lines p{
+    font-family: var(--second-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 52px;
+    padding-left: 20px;
+}
+
+.lines__line{
+    background-image: url(../resources/img/line.svg);
+    width: 219px;
+    height: 2px;
+    margin-top: 7px;
+}

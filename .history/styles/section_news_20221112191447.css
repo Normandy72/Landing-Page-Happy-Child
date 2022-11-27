@@ -1,0 +1,9 @@
+.section__news{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.section__news h2{
+    margin: 30px auto;
+}

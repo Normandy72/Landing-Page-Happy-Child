@@ -1,0 +1,10 @@
+footer{
+    width: 100%;
+    background-color: var(--footer-color);
+    display: flex;
+    align-items: flex-start;
+}
+
+footer h6{
+    display: inline;
+}

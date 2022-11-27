@@ -1,0 +1,9 @@
+.section__lines{
+    width: 100%;
+}
+
+.section__lines div{
+    background-color: var(--lines-color);
+    box-shadow: var(--shadow);
+    height: 254px;
+}

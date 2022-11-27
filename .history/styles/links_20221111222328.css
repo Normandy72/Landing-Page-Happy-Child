@@ -1,0 +1,12 @@
+a{
+    text-decoration: none;
+    color: var(--links-color);
+    text-shadow: var(--links-shadow);
+    font-size: var(--links-font-size);
+}
+
+a:hover{
+    cursor: pointer;
+    color: var(--links-hover-color);
+    transition: var(--transition);
+}

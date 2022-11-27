@@ -1,0 +1,15 @@
+.layout-3-columns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-basis: 30%;
+}
+
+.layout-6-columns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-basis: 15%;
+}

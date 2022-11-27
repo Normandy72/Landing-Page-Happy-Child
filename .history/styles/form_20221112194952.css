@@ -1,0 +1,21 @@
+.addition__form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 55%;
+}
+
+.addition__input{
+    width: 413px;
+    height: 55.31px;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+    background-color: var(--input-bg-color);
+
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: var(--input-font-size);
+    color: #5B5B5B;
+    padding-left: 54px;
+}

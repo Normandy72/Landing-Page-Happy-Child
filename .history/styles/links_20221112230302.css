@@ -1,0 +1,29 @@
+a{
+    text-decoration: none;
+    color: var(--main-links-color);
+    text-shadow: var(--shadow);
+    font-size: var(--main-links-font-size);
+}
+
+a:hover{
+    cursor: pointer;
+    color: var(--main-links-hover-color);
+    transition: var(--transition);
+}
+
+.news__card a{
+    color: var(--second-link-color);
+    font-size: var(--second-links-font-size);
+}
+
+.news__card a:hover{
+    color: var(--second-link-hover-color);
+}
+
+footer a{
+    font-size: var(--second-links-font-size);
+}
+
+footer a:hover{
+    color: var(--second-link-hover-color);
+}

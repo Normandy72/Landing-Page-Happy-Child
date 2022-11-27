@@ -1,0 +1,9 @@
+a{
+    text-decoration: none;
+    color: var(--links-color);
+    text-shadow: var(--links-shadow);
+}
+
+a:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,49 @@
+.section__doctors h2{
+    padding-bottom: 22px;
+}
+
+.section__doctors h5:nth-child(3){
+    padding-bottom: 30px;
+}
+
+.doctors__arrows{
+    display: flex;
+    justify-content: space-between;
+}
+
+.doctors__arrows>div{
+    width: 40px;
+    height: 10px;
+    margin-bottom: 22px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.arrow_left{
+    background-image: url(../resources/icon/arrow_left.svg);
+}
+
+.arrow_rigth{
+    background-image: url(../resources/icon/arrow_right.svg);
+}
+
+/* Cards */
+.doctors__cards{
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+}
+
+.doctors__cards::-webkit-scrollbar{
+    display: none;
+}
+
+.doctors__card{
+    background-color: var(--cards-color);
+    border-radius: 20px;
+    border: 1px solid var(--cards-border-color);
+}
+
+.doctors__card img{
+    border-radius: 20px 20px 0 0;
+}

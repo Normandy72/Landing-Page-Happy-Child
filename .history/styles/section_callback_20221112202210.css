@@ -1,0 +1,19 @@
+.section__callback{
+    padding: 142px 0 128px;
+}
+
+.callback__form h2{
+    padding-bottom: 10px;
+}
+
+.callback__form h5{
+    padding-bottom: 20px;
+}
+
+.callback__photo{
+    width: 472.32px;
+    height: 507.09px;
+    background-image: url(../resources/img/doctor_call.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}

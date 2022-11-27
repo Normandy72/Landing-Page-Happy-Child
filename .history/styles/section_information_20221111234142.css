@@ -1,0 +1,8 @@
+.section__information{
+    margin-top: -10px;
+}
+
+.information__block{
+    width: 500px;
+    background-color: var(--added-blocks-color);
+}

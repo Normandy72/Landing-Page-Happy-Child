@@ -1,0 +1,5 @@
+.addition__form{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 60%;
+}

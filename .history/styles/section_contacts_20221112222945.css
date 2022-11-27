@@ -1,0 +1,31 @@
+.section__contacts h2{
+    padding-bottom: 64px;
+}
+
+.contacts__info{
+    background-color: rgba(253, 199, 241, 0.9);
+    box-shadow: var(--shadow);
+    padding: 30px 45px;
+}
+
+.contacts__info h3{
+    padding-bottom: 20px;
+}
+
+.contacts__info h4{
+    padding-bottom: 30px;
+}
+
+.contacts__info h4:nth-child(5){
+    padding-bottom: 5px;
+}
+
+.contacts__info h6{
+    color: #5B5B5B;
+    padding-bottom: 5px;
+}
+
+.contacts__social{
+    
+}
+

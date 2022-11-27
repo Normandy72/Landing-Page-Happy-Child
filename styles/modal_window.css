@@ -1,0 +1,15 @@
+.modal__window{
+    width: 58%;
+    margin: auto;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: flex;
+}

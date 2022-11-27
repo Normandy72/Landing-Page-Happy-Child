@@ -1,0 +1,10 @@
+.section__services{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: -100px;
+}
+
+.section__services h2{
+    display: block;
+    margin: auto;
+}
