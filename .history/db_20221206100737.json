@@ -1,0 +1,99 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+
+  "service" : [
+    {
+      "img" : "resources/img/services/pediatria.png",
+      "alt" : "pediatria",
+      "h4" : "Педиатрия"                        
+    },
+    {
+      "img" : "resources/img/services/pulmo.png",
+      "alt" : "pulmo",
+      "h4" : "Пульмонология"     
+    },
+    {
+      "img" : "resources/img/services/cardio.png",
+      "alt" : "cardio",
+      "h4" : "Кардиология" 
+    },
+    {
+      "img" : "resources/img/services/lor.png",
+      "alt" : "lor",
+      "h4" : "Оториноларингология" 
+    },
+    {
+      "img" : "resources/img/services/allergo.png",
+      "alt" : "allergo",
+      "h4" : "Аллергология" 
+    },
+    {
+      "img" : "resources/img/services/surgery.png",
+      "alt" : "surgery",
+      "h4" : "Хирургия" 
+    },
+    {
+      "img" : "resources/img/services/neuro.png",
+      "alt" : "neuro",
+      "h4" : "Неврология" 
+    },
+    {
+      "img" : "resources/img/services/endocryn.png",
+      "alt" : "endocryn",
+      "h4" : "Эндокринология" 
+    },
+    {
+      "img" : "resources/img/services/ophtalm.png",
+      "alt" : "ophtalm",
+      "h4" : "Офтальмология" 
+    },
+    {
+      "img" : "resources/img/services/vaccination.png",
+      "alt" : "vaccination",
+      "h4" : "Вакцинация" 
+    },
+    {
+      "img" : "resources/img/services/usd.png",
+      "alt" : "usd",
+      "h4" : "УЗ-диагностика" 
+    },
+    {
+      "img" : "resources/img/services/stayhome.png",
+      "alt" : "stayhome",
+      "h4" : "Вызов врача на дом" 
+    }
+  ],
+
+  "doctors" : [
+    {
+      "img" : "resources/img/doctors/ivanov1.png",
+      "alt" : "ivanov1",
+      "h5" : "Иванов Илья Денисович",
+      "h6" : "Врач-оториноларинголог"
+    },
+    {},
+    {},
+    {},
+    {},
+    {}
+  ]
+
+
+  
+}

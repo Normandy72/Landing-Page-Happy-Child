@@ -1,6 +1,0 @@
-.section__addition{
-    color: var(--text-ligth-color);
-    background-color: var(--added-blocks-color);
-    display: flex;
-    justify-content: space-between;
-}

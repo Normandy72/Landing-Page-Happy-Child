@@ -1,0 +1,65 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+
+  // service cards
+  "service" : [
+    {
+      "img" : "resources/img/services/pediatria.png",
+      "alt" : "pediatria",
+      "h4" : "Педиатрия"                        
+    },
+    {
+      "img" : "resources/img/services/pulmo.png",
+      "alt" : "pulmo",
+      "h4" : "Пульмонология"     
+    },
+    {
+      
+    },
+    {
+
+    },
+    {
+
+    },
+    {
+
+    },
+    {
+
+    },
+    {
+
+    },
+    {
+
+    },
+    {
+
+    },
+    {
+
+    },
+    {
+
+    }
+  ]
+
+  
+}

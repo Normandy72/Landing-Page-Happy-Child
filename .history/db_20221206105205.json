@@ -1,0 +1,160 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+
+  "service" : [
+    {
+      "img" : "resources/img/services/pediatria.png",
+      "alt" : "pediatria",
+      "h4" : "Педиатрия"                        
+    },
+    {
+      "img" : "resources/img/services/pulmo.png",
+      "alt" : "pulmo",
+      "h4" : "Пульмонология"     
+    },
+    {
+      "img" : "resources/img/services/cardio.png",
+      "alt" : "cardio",
+      "h4" : "Кардиология" 
+    },
+    {
+      "img" : "resources/img/services/lor.png",
+      "alt" : "lor",
+      "h4" : "Оториноларингология" 
+    },
+    {
+      "img" : "resources/img/services/allergo.png",
+      "alt" : "allergo",
+      "h4" : "Аллергология" 
+    },
+    {
+      "img" : "resources/img/services/surgery.png",
+      "alt" : "surgery",
+      "h4" : "Хирургия" 
+    },
+    {
+      "img" : "resources/img/services/neuro.png",
+      "alt" : "neuro",
+      "h4" : "Неврология" 
+    },
+    {
+      "img" : "resources/img/services/endocryn.png",
+      "alt" : "endocryn",
+      "h4" : "Эндокринология" 
+    },
+    {
+      "img" : "resources/img/services/ophtalm.png",
+      "alt" : "ophtalm",
+      "h4" : "Офтальмология" 
+    },
+    {
+      "img" : "resources/img/services/vaccination.png",
+      "alt" : "vaccination",
+      "h4" : "Вакцинация" 
+    },
+    {
+      "img" : "resources/img/services/usd.png",
+      "alt" : "usd",
+      "h4" : "УЗ-диагностика" 
+    },
+    {
+      "img" : "resources/img/services/stayhome.png",
+      "alt" : "stayhome",
+      "h4" : "Вызов врача на дом" 
+    }
+  ],
+
+  "doctors" : [
+    {
+      "img" : "resources/img/doctors/ivanov1.png",
+      "alt" : "ivanov1",
+      "h5" : "Иванов Илья Денисович",
+      "h6" : "Врач-оториноларинголог"
+    },
+    {
+      "img" : "resources/img/doctors/stanina1.png",
+      "alt" : "stanina1",
+      "h5" : "Станина Александра Ивановна",
+      "h6" : "Врач-офтальмолог"
+    },
+    {
+      "img" : "resources/img/doctors/tkachenko1.png",
+      "alt" : "tkachenko1",
+      "h5" : "Ткаченко Антонина Львовна",
+      "h6" : "Врач-невролог"
+    },
+    {
+      "img" : "resources/img/doctors/savenko1.png",
+      "alt" : "savenko1",
+      "h5" : "Савенко Алина Викторовна",
+      "h6" : "Врач-педиатр"
+    },
+    {
+      "img" : "resources/img/doctors/krotov1.png",
+      "alt" : "krotov1",
+      "h5" : "Кротов Алексей Геннадьевич",
+      "h6" : "Врач-хирург"
+    },
+    {
+      "img" : "resources/img/doctors/karpovich1.png",
+      "alt" : "karpovich1",
+      "h5" : "Карпович Анна Игоревна",
+      "h6" : "Врач-кардиолог"
+    },
+    {
+      "img" : "resources/img/doctors/akulich1.png",
+      "alt" : "akulich1",
+      "h5" : "Акулич Олег Васильевич",
+      "h6" : "Врач-эндокринолог"
+    },
+    {
+      "img" : "resources/img/doctors/astapenko1.png",
+      "alt" : "astapenko1",
+      "h5" : "Астапенко Ирина Эдуардовна",
+      "h6" : "Врач УЗ-диагностики"
+    }
+  ],
+
+  "news" : [
+    {
+      "date_time" : "25. 07. 2022   15 : 00",
+      "h4" : "Всемирный день здоровья полости рта",
+      "h6" : "Взрослея, организм ребенка испытывает множество изменений. В честь Всемирного дня здоровья полости рта наши стоматологи расскажут родителям и детям, как заботиться о зубах и деснах в разных возрастных периодах, какие средства использовать, чтобы смена молочных зубов прошла легко и безболезненно, и еще много-много полезного!",
+      "a" : "Подробнее...",
+      "img" : "resources/img/news/news1.png",
+      "alt" : "news1"
+    },
+    {
+      "date_time" : "27. 07. 2022   13 : 30",
+      "h4" : "Европейская неделя иммунизации",
+      "h6" : "Знаете ли Вы, что иммунизация является единственным и надежным способом борьбы с эпидемиологическими заболеваниями, такими как корь, полиомиелит, эпидемический паротит и др.? В рамках Европейской недели иммунизации врач-педиатр Савенко Алина Викторовна познакомит Вас с текущим календарем профилактических прививок и ответит на все волнующие Вас вопросы!",
+      "a" : "Подробнее...",
+      "img" : "resources/img/news/news2.png",
+      "alt" : "news2"
+    },
+    {
+      "date_time" : "28. 07. 2022    16 : 00",
+      "h4" : "Международный день офтальмологии",
+      "h6" : "Ухудшение зрения может лишить человека возможности заниматься любимым делом. Хорошо, что современная офтальмология обладает широкими возможностями для лечения многих заболеваний глаз.  Приходите к нам в Международный день офтальмологии и узнайте, что рекомендуют специалисты для профилактии заболеваний глаз.",
+      "a" : "Подробнее...",
+      "img" : "resources/img/news/news3.png",
+      "alt" : "news3"
+    }
+  ]  
+}

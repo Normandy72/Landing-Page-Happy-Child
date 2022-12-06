@@ -1,0 +1,19 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Normandy72/Landing-Page-Happy-Child.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Normandy72/Landing-Page-Happy-Child/issues"
+  },
+  "homepage": "https://github.com/Normandy72/Landing-Page-Happy-Child#readme"
+}

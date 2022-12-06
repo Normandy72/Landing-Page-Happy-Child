@@ -1,0 +1,38 @@
+.section__services h2{
+    display: block;
+    margin: -60px 0 40px 42%;
+}
+
+.services__cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    /* background-image: url(../resources/img/line.svg);
+    background-position: center;
+    background-repeat: repeat-y;    */
+}
+
+.services__card{
+    background-color: var(--cards-color);
+    border: 1px solid var(--cards-border-color);
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+    margin-top: -10px;
+    margin-bottom: 68px;
+    flex-basis: 33%;
+}
+
+.services__card img{
+    border-radius: 20px 20px 0 0;
+}
+
+.services__card h4{
+    padding: 15px 23px;
+}
+
+.services__card:hover{
+    transform: var(--transform);
+    transition-duration: var(--duration);
+    cursor: pointer;
+}

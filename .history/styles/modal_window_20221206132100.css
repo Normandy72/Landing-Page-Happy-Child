@@ -1,0 +1,59 @@
+.hide{
+    display: none;
+}
+
+.show{
+    position: fixed;
+    top: 2%;
+    left: 25%;
+    display: flex;
+    z-index: 4;    
+}
+
+.modal__content{
+    padding: 40px 0;
+    border: 2px solid var(--cards-border-color);
+    background-color: white;
+}
+
+.modal__close{
+    width: 40px;
+    height: 40px;
+    background-image: url(../resources/icon/close.png);
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.modal__close:hover{
+    cursor: pointer;
+    transform: var(--transform);
+    transition-duration: var(--duration);
+}
+
+.modal__title{
+    font-size: 30px;
+}
+
+.modal__form{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.modal__input{
+    width: 496px;
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+.modal__checkbox{
+    display: block;
+    padding-bottom: 30px;
+}
+
+label{
+    font-size: 15px;
+}
