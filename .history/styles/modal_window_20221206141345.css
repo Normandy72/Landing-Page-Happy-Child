@@ -66,10 +66,3 @@ label{
 .modal__button{
     width: 55%;
 }
-
-/* Thanks Dialog */
-.thanks__dialog{
-    padding-top: 20px;
-    font-size: 25px;
-    color: #12306A;
-}

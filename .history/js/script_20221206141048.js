@@ -148,7 +148,7 @@ window.addEventListener('DOMContentLoaded', function(){
     {
         constructor(date, h4, h6, a, img, alt, parentSelector, ...classes)
         {
-            this.date = date;
+            this.date_time= date;
             this.h4 = h4;
             this.h6 = h6;
             this.a = a;
@@ -225,7 +225,7 @@ window.addEventListener('DOMContentLoaded', function(){
         {
             localStorage.setItem('email', inputSubscribe.value);
             element.style.color = 'rgb(94, 190, 241)';
-            element.innerHTML = 'Вы подписались на рассылку новостей от HappyChild !';              
+            element.innerHTML = 'Вы подписались на рассылку новостей от HappyChild!';              
         }
         else
         {
@@ -246,7 +246,7 @@ window.addEventListener('DOMContentLoaded', function(){
     bindPostData(form);
 
     const postData = async (url, data) => {
-        let result = await fetch(url, {
+        let res = await fetch(url, {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json'
@@ -254,7 +254,7 @@ window.addEventListener('DOMContentLoaded', function(){
             body: data
         });
 
-        return await result.json();
+        return await res.json();
     };
 
    function bindPostData(form) {
@@ -308,46 +308,4 @@ window.addEventListener('DOMContentLoaded', function(){
 
 
     // ------------------------ FORM SUBMISSION (.static__form) -----------------------
-    const staticForm = document.querySelector('.static__form');
-    
-    function bindStaticPostData(form) {
-        form.addEventListener('submit', (e) => {
-            e.preventDefault();
-
-            let statusMessage = document.createElement('img');
-            statusMessage.src = message.loading;
-            statusMessage.style.cssText = `
-                display: block;
-                margin: 0 auto;
-            `;
-            form.insertAdjacentElement('afterend', statusMessage);
-
-            const formData = new FormData(form);
-
-            const json = JSON.stringify(Object.fromEntries(formData.entries()));
-
-            postData('http://localhost:3000/requests', json)
-                .then(data => {
-                    console.log(data);
-                    showThanksMessage(message.success);
-                    statusMessage.remove();
-                }).catch(() => {
-                    showThanksMessage(message.failure);
-            }).finally(() => {
-                form.reset();
-            });
-        });
-    }
-
-    function showThanksMessage(message) {
-        const thanksModal = document.createElement('div');
-        thanksModal.classList.add('thanks__dialog');
-        thanksModal.innerHTML = `${message}`;
-        document.querySelector('.static__form').append(thanksModal);
-        setTimeout(() => {
-            thanksModal.remove();
-        }, 4000);
-    }
-
-    bindStaticPostData(staticForm);
 });

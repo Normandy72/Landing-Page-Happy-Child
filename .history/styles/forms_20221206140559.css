@@ -15,6 +15,10 @@ input:focus, select:focus{
     border: 3px solid var(--input-focus-color);
 }
 
+input:invalid{
+    border: 3px solid var(--input-focus-color);
+}
+
 /* Addition form */
 .addition__form{
     display: flex;

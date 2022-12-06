@@ -148,7 +148,7 @@ window.addEventListener('DOMContentLoaded', function(){
     {
         constructor(date, h4, h6, a, img, alt, parentSelector, ...classes)
         {
-            this.date = date;
+            this.date_time= date;
             this.h4 = h4;
             this.h6 = h6;
             this.a = a;
@@ -246,7 +246,7 @@ window.addEventListener('DOMContentLoaded', function(){
     bindPostData(form);
 
     const postData = async (url, data) => {
-        let result = await fetch(url, {
+        let res = await fetch(url, {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json'
@@ -254,7 +254,7 @@ window.addEventListener('DOMContentLoaded', function(){
             body: data
         });
 
-        return await result.json();
+        return await res.json();
     };
 
    function bindPostData(form) {

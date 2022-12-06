@@ -69,7 +69,13 @@ label{
 
 /* Thanks Dialog */
 .thanks__dialog{
-    padding-top: 20px;
+    background-color: white;
+    
+    width: 60%;
+
+}
+
+.modal__title{
     font-size: 25px;
-    color: #12306A;
+    padding: 20px;
 }

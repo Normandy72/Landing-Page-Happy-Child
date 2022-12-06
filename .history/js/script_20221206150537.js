@@ -148,7 +148,7 @@ window.addEventListener('DOMContentLoaded', function(){
     {
         constructor(date, h4, h6, a, img, alt, parentSelector, ...classes)
         {
-            this.date = date;
+            this.date_time= date;
             this.h4 = h4;
             this.h6 = h6;
             this.a = a;

@@ -183,21 +183,6 @@
       "menu": "pulmo",
       "date": "2022-01-01",
       "id": 4
-    },
-    {
-      "name": "Игорь Барздов",
-      "phone": "+375445070764",
-      "menu": "surg",
-      "date": "2022-12-07",
-      "agreement": "on",
-      "id": 5
-    },
-    {
-      "name": "wwwwwwwwwwwwwwwww",
-      "phone": "+375445070764",
-      "menu": "pulmo",
-      "date": "2022-01-19",
-      "id": 6
     }
   ]
 }

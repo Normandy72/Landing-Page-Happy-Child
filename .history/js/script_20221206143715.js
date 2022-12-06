@@ -148,7 +148,7 @@ window.addEventListener('DOMContentLoaded', function(){
     {
         constructor(date, h4, h6, a, img, alt, parentSelector, ...classes)
         {
-            this.date = date;
+            this.date_time= date;
             this.h4 = h4;
             this.h6 = h6;
             this.a = a;
@@ -246,7 +246,7 @@ window.addEventListener('DOMContentLoaded', function(){
     bindPostData(form);
 
     const postData = async (url, data) => {
-        let result = await fetch(url, {
+        let res = await fetch(url, {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json'
@@ -254,7 +254,7 @@ window.addEventListener('DOMContentLoaded', function(){
             body: data
         });
 
-        return await result.json();
+        return await res.json();
     };
 
    function bindPostData(form) {
@@ -329,25 +329,39 @@ window.addEventListener('DOMContentLoaded', function(){
             postData('http://localhost:3000/requests', json)
                 .then(data => {
                     console.log(data);
-                    showThanksMessage(message.success);
+                    showThanksWindow(message.success);
                     statusMessage.remove();
                 }).catch(() => {
-                    showThanksMessage(message.failure);
+                showThanksWindow(message.failure);
             }).finally(() => {
                 form.reset();
             });
         });
     }
 
-    function showThanksMessage(message) {
+    function showThanksWindow(message) {
+        const thanksDialog = document.querySelector('.thanks__dialog');
+        thanksDialog.classList.add('hide');
+
         const thanksModal = document.createElement('div');
         thanksModal.classList.add('thanks__dialog');
-        thanksModal.innerHTML = `${message}`;
+
+        thanksModal.innerHTML = `
+            <div class="modal__content">
+                <div class="modal__close" data-close></div>
+                <div class="modal__title">${message}</div>
+            </div>
+        `;
+
         document.querySelector('.static__form').append(thanksModal);
         setTimeout(() => {
             thanksModal.remove();
+            thanksDialog.classList.add('show');
+            thanksDialog.classList.remove('hide');
         }, 4000);
     }
 
     bindStaticPostData(staticForm);
+
+
 });
